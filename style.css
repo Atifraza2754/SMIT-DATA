@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+.title{
+    width: 940px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: aquamarine;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.table{
+    width: 960px;
+    height: 400px;
+    margin: 0px auto;
+    border: 2px;
+    background-color: burlywood;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 20px 20px 20px rgb(47, 255, 227);
+    
+}
+thead:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:hover{
+    background-color: cornflowerblue;
+}
+tr>td{
+    border: 2px solid;
+}
+tfoot>:first-child{
+    color: black;
+    background-color: white;
+}
+tfoot>tr:hover{
+    background-color: chartreuse;
+}
